@@ -1,0 +1,176 @@
+* {
+  font-family: "Roboto", sans-serif;
+}
+body{
+  background:linear-gradient(rgb(35, 1, 51), rgb(4, 1, 69));
+}
+
+.redes {
+  margin: 10px;
+  display: flex;
+  gap: 10px;
+  justify-content: flex-end;
+}
+.paragrafo1 {
+  background:linear-gradient(rgb(4, 217, 255),rgb(254, 252, 255));
+  color: rgb(18, 18, 18);
+  text-align: center;
+  font-size: 2.8rem;
+  font-weight: 900;
+  margin-bottom: 10px;
+  letter-spacing: 2px;
+  padding-bottom: 5px;
+
+}
+.divisaop{
+margin: 1px 500px 20px 500px;
+box-shadow:  2px 2px 2px 2px rgba(216, 214, 216, 0.202);
+
+}
+.paragrafo1::first-letter {
+  color: rgb(16, 10, 3);
+}
+
+
+
+
+
+.whatsapp,
+.github,
+.linkedin {
+  width: 3.5rem;
+}
+.imagensprojetos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+
+.projetos {
+  gap: 10px;
+  width: 50rem;
+
+}
+.projetos{
+  transition: ease-in-out 300ms ;
+  filter: grayscale(100%);
+  box-shadow: 5px 1px 5px 1px rgba(251, 255, 251, 0.317);
+  
+}
+
+figcaption{
+  color:#fdfdfd;
+background-color: rgba(0, 0, 255, 0.109);
+  border: 5px solid rgba(0, 0, 255, 0.042);
+height: justify;
+
+  text-align: center;
+  margin-bottom: 50px;
+  font-weight:900;
+  font-size: larger;
+  border-radius: 5px;
+  ;
+}
+
+.imagem-colorida {
+
+filter: grayscale(0%)
+}
+.sobre{
+  background:linear-gradient(rgb(4, 217, 255),rgb(254, 252, 255));
+  color: rgb(18, 18, 18);
+  border: 3px solid #cac6c6db;;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-align: center;
+  font-size: xx-large;
+  font-weight: bold;
+
+  margin-right: 500px;
+  margin-left: 500px;
+  border-radius: 50px;
+  
+}
+.texto{
+  border: 5px solid #cac6c6db;
+  border-radius: 1%;
+  margin: 10px 350px;
+  height: justify;
+  text-align: center;
+
+  
+  font-family:  'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font: 900;
+  font-size: x-large;
+  background-color: #fdfdfd;
+}
+
+@media screen and (min-width: 768px) {
+  .redes{
+    display: flex;
+    justify-content:flex-end;
+    margin-right: 100px;
+    
+  }
+  .divisaop{
+    box-shadow: none;
+    width:100%;
+    display: flex;
+    justify-content: center;
+  margin: 0 auto;
+  }
+
+.paragrafo1{
+  border-radius: 2px;
+  width: 50%;
+}
+  
+}
+@media screen and (max-width: 768px){
+  body{
+    margin: 0px;
+  }
+ 
+  figcaption{
+
+    width: 30rem;
+    
+    
+  }
+.divisaop{
+  box-shadow: none;
+display: flex;
+  justify-content: center;
+  text-align: center;
+  margin: 0 1rem;
+}
+img{
+  max-width: 20rem;
+  display: block;
+  justify-content: center;
+  
+}
+.imagensprojetos{
+  margin: 0 auto;
+  max-width: 10rem;
+
+}
+.sobre{
+
+  text-align: center;
+  max-width: 10rem;
+  margin:10px auto;
+ 
+}
+.texto{
+  text-align: center;
+  width: 20rem;
+  height: fit-content;
+  margin:0 auto;
+}
+.textodiv{
+  display: flex;
+  justify-content: center;
+}
+}
